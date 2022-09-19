@@ -8,6 +8,12 @@ contract Functions {
     // view: If the function has the "view" keyword, you can read a variable from the state but can't affect any state variable.
 
 
+    /* ------------ MEMORY ------------ */
+    
+    // If a variable has the "memory" keyword, the variable stays in the function it was used in. It is not stored on the blockchain.
+
+
+
     // ------------------------Function Keywords------------------------ 
     //               (Public, External, Internal, Private)  
                 
