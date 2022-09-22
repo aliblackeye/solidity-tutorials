@@ -33,7 +33,7 @@ contract TestArray {
     uint[] public arr = [3, 2, 1];
 
     function testFind() external view returns (uint i) {
-        return ArrayLib.find(arr,2);
+        // return ArrayLib.find(arr,2);
         return arr.find(2);
     }
 }
